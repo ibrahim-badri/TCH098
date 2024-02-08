@@ -5,3 +5,4 @@ Ce répertoire (repository) constitue les artéfacts et les démarches des trava
 1. [Licence](#Licence)
 
 ## Licence
+Ce projet est sous licence conformément à la licence MIT.
