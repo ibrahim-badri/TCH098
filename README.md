@@ -8,8 +8,5 @@ Réaliser un projet en équipe multidisciplinaire (au moins deux disciplines rep
 ## Tech Stack
 The main technologies used within the scope of this course are primarily C.
 
-## Prerequisites
-This is an example of how to list things you need to use the software and how to install them.
-
 ## Licence
 Ce projet est sous licence conformément à la [licence MIT](LICENSE).
