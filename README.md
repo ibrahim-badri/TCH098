@@ -6,7 +6,7 @@ Réaliser un projet en équipe multidisciplinaire (au moins deux disciplines rep
 2. [Licence](#Licence)
 
 ## Tech Stack
-The main technologies used within the scope of this course are primarily C.
+Les principales technologies utilisées dans le cadre de ce cours sont principalement le langage C.
 
 ## Licence
 Ce projet est sous licence conformément à la [licence MIT](LICENSE).
