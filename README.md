@@ -8,5 +8,7 @@ Réaliser un projet en équipe multidisciplinaire (au moins deux disciplines rep
 ## Tech Stack
 Les principales technologies utilisées dans le cadre de ce cours sont principalement le langage C.
 
+## Cours 1A - Montage de la plaquette de prototypage
+
 ## Licence
 Ce projet est sous licence conformément à la [licence MIT](LICENSE).
