@@ -9,5 +9,7 @@ Les principales technologies utilisées dans le cadre de ce cours sont principal
 ## Cours 1A - Montage de la plaquette de prototypage
 ### Plaquette de prototypage de la manette (_joystick_)
 
+### Alimentation
+
 ## Licence
 Ce projet est sous licence conformément à la [licence MIT](LICENSE).
