@@ -12,6 +12,7 @@ Les principales technologies utilisées dans le cadre de ce cours sont principal
 ### Alimentation
 
 ### Microcontrôleur _ATmega324A_
+#### Caractéristiques 
 
 ## Licence
 Ce projet est sous licence conformément à la [licence MIT](LICENSE).
