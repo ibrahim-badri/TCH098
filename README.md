@@ -19,5 +19,7 @@ Les principales technologies utilisées dans le cadre de ce cours sont principal
 
 ### Sorties DEL
 
+### Sortie d'écran LCD
+
 ## Licence
 Ce projet est sous licence conformément à la [licence MIT](LICENSE).
