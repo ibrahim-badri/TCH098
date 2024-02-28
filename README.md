@@ -24,6 +24,6 @@ Les principales technologies utilisées dans le cadre de ce cours sont principal
 ### Entrée _joystick_
 
 ## Laboratoire 1A - Montage de la plaquette de prototypage
-
+### Synthèse du laboratoire
 ## Licence
 Ce projet est sous licence conformément à la [licence MIT](LICENSE).
