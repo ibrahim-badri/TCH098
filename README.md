@@ -25,5 +25,7 @@ Les principales technologies utilisées dans le cadre de ce cours sont principal
 
 ## Laboratoire 1A - Montage de la plaquette de prototypage
 ### Synthèse du laboratoire
+
+## Cours 1B - Introduction à la programmation de microcontrôleur
 ## Licence
 Ce projet est sous licence conformément à la [licence MIT](LICENSE).
