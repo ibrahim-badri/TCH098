@@ -27,5 +27,7 @@ Les principales technologies utilisées dans le cadre de ce cours sont principal
 ### Synthèse du laboratoire
 
 ## Cours 1B - Introduction à la programmation de microcontrôleur
+
+### Sections du microcontrôleur
 ## Licence
 Ce projet est sous licence conformément à la [licence MIT](LICENSE).
