@@ -30,6 +30,9 @@ Les principales technologies utilisées dans le cadre de ce cours sont principal
 
 ### Sections du microcontrôleur
 
+
+### Types de variables 
+
 ### Registres de configuration et contrôle
 ## Licence
 Ce projet est sous licence conformément à la [licence MIT](LICENSE).
