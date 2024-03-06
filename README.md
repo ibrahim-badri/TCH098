@@ -36,5 +36,8 @@ Les principales technologies utilisées dans le cadre de ce cours sont principal
 ### Format et opérateurs binaires
 
 ### Registres de configuration et contrôle
+
+### Bibliothèques de fonctions et définitions utiles
+
 ## Licence
 Ce projet est sous licence conformément à la [licence MIT](LICENSE).
