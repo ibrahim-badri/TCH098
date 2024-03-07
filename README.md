@@ -39,5 +39,7 @@ Les principales technologies utilisées dans le cadre de ce cours sont principal
 
 ### Bibliothèques de fonctions et définitions utiles
 
+## Laboratoire 1B - Introduction à la programmation de microcontrôleur
+
 ## Licence
 Ce projet est sous licence conformément à la [licence MIT](LICENSE).
