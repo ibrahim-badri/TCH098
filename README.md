@@ -45,5 +45,7 @@ Les principales technologies utilisées dans le cadre de ce cours sont principal
 
 ### Exemples de codes
 
+## Cours 2A - Lecture de potentiomètre par conversion analogique à numérique (CAN) et contrôle de moteur par modulation de largeur d’impulsion (MLI)
+
 ## Licence
 Ce projet est sous licence conformément à la [licence MIT](LICENSE).
