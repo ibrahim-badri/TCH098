@@ -53,5 +53,7 @@ Les principales technologies utilisées dans le cadre de ce cours sont principal
 
 ### Configuration de la conversion analogique à numérique
 
+### Solution d'ajustement d'intensité
+
 ## Licence
 Ce projet est sous licence conformément à la [licence MIT](LICENSE).
