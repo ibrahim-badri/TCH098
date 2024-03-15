@@ -55,5 +55,7 @@ Les principales technologies utilisées dans le cadre de ce cours sont principal
 
 ### Solution d'ajustement d'intensité
 
+### Modulation de largeur d’impulsion
+
 ## Licence
 Ce projet est sous licence conformément à la [licence MIT](LICENSE).
