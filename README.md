@@ -57,5 +57,7 @@ Les principales technologies utilisées dans le cadre de ce cours sont principal
 
 ### Modulation de largeur d’impulsion
 
+### Configuration de la modulation de largeur d’impulsion
+
 ## Licence
 Ce projet est sous licence conformément à la [licence MIT](LICENSE).
