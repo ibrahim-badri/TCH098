@@ -59,5 +59,7 @@ Les principales technologies utilisées dans le cadre de ce cours sont principal
 
 ### Configuration de la modulation de largeur d’impulsion
 
+## Laboratoire 2A - Lecture de potentiomètre (CAN) , contrôle d’intensité lumineuse (MLI), contrôle de la vitesse d’un moteur et contrôle de servomoteur (MLI).
+
 ## Licence
 Ce projet est sous licence conformément à la [licence MIT](LICENSE).
