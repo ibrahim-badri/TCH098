@@ -63,5 +63,7 @@ Les principales technologies utilisées dans le cadre de ce cours sont principal
 
 ## Cours 2B - Protocoles de communication série asynchrone RS232
 
+### Broches de communication
+
 ## Licence
 Ce projet est sous licence conformément à la [licence MIT](LICENSE).
