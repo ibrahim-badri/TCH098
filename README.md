@@ -65,5 +65,7 @@ Les principales technologies utilisées dans le cadre de ce cours sont principal
 
 ### Broches de communication
 
+### Transmission série asynchrone
+
 ## Licence
 Ce projet est sous licence conformément à la [licence MIT](LICENSE).
