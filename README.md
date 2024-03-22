@@ -69,5 +69,7 @@ Les principales technologies utilisées dans le cadre de ce cours sont principal
 
 ### Norme RS232
 
+### _Universal Asynchronous Receiver Transceiver_ (USART)
+
 ## Licence
 Ce projet est sous licence conformément à la [licence MIT](LICENSE).
