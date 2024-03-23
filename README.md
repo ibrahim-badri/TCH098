@@ -71,5 +71,7 @@ Les principales technologies utilisées dans le cadre de ce cours sont principal
 
 ### _Universal Asynchronous Receiver Transceiver_ (USART)
 
+### Modules de programmation
+
 ## Licence
 Ce projet est sous licence conformément à la [licence MIT](LICENSE).
