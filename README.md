@@ -79,7 +79,10 @@ Les principales technologies utilisées dans le cadre de ce cours sont principal
 
 ## Laboratoire 2B - Protocole de communication série asynchrone RS232
 
-### Cours 3A et 3B - Conception d’un circuit et brasage à l’étain
+## Cours 3A et 3B - Conception d’un circuit et brasage à l’étain
+
+### Pont en H DRV8801
+
 
 ## Licence
 Ce projet est sous licence conformément à la [licence MIT](LICENSE).
