@@ -83,6 +83,7 @@ Les principales technologies utilisées dans le cadre de ce cours sont principal
 
 ### Pont en H DRV8801
 
+### Communication sans-fil ESP8266
 
 ## Licence
 Ce projet est sous licence conformément à la [licence MIT](LICENSE).
