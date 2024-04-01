@@ -87,5 +87,7 @@ Les principales technologies utilisées dans le cadre de ce cours sont principal
 
 ### Dessin de circuit imprimé
 
+### Brasage électronique
+
 ## Licence
 Ce projet est sous licence conformément à la [licence MIT](LICENSE).
