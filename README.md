@@ -89,5 +89,7 @@ Les principales technologies utilisées dans le cadre de ce cours sont principal
 
 ### Brasage électronique
 
+### Entretien de la pointe
+
 ## Licence
 Ce projet est sous licence conformément à la [licence MIT](LICENSE).
