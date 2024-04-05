@@ -93,7 +93,9 @@ Les principales technologies utilisées dans le cadre de ce cours sont principal
 
 ### Transfert thermique
 
-### Placement des composants  
+### Placement des composants
+
+### Ordre de soudure
 
 ## Licence
 Ce projet est sous licence conformément à la [licence MIT](LICENSE).
