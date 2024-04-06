@@ -97,5 +97,7 @@ Les principales technologies utilisées dans le cadre de ce cours sont principal
 
 ### Ordre de soudure
 
+### Résultat de la soudure
+
 ## Licence
 Ce projet est sous licence conformément à la [licence MIT](LICENSE).
