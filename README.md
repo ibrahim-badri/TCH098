@@ -11,6 +11,12 @@ Les principales technologies utilisées dans le cadre de ce cours sont principal
 
 ### Alimentation
 
+Une batterie de $9V$ ou $7.4V$ si elle est en Lithium sont utilisés pour alimenter le circuit.
+
+Des régulateurs de charge sont placés dans le circuit pour contrôler les tensions entrantes et sortantes. *
+
+
+
 ### Microcontrôleur _ATmega324A_
 #### Caractéristiques
 #### Connexion minimum
