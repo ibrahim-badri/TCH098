@@ -19,6 +19,8 @@ Des régulateurs de charge sont placés dans le circuit pour contrôler les tens
 
 ### Microcontrôleur _ATmega324A_
 #### Caractéristiques
+Demi-cercle indique le haut de la puce. Il dispose de 40 broches ou pin situées de part et d’autres du microcontrôleur. Le microcontrôleur est symétrique.
+Le microcontrôleur est muni d’un oscillateur interne qui fonctionne à une fréquence de 8 MHz. Par conséquent, il effectue 8 millions d’opérations par seconde.
 #### Connexion minimum
 
 ### Programmation
