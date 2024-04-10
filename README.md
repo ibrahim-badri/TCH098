@@ -28,6 +28,8 @@ Le circuit est muni d’une résistance de tirage, ou *[pull-up* *resistance*](h
 
 ### Programmation
 
+Un programmeur USB AVR Pololu est utilisé pour charger et programmer le micro-contrôleur par le moyen du connecteur ISP.
+
 ### Sorties DEL
 
 ### Sortie d'écran LCD
