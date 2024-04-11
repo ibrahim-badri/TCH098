@@ -3,8 +3,6 @@ Réaliser un projet en équipe multidisciplinaire (au moins deux disciplines rep
 
 ## Table des matières
 
-## Tech Stack
-Les principales technologies utilisées dans le cadre de ce cours sont principalement le langage C.
 
 ## Cours 1A - Montage de la plaquette de prototypage
 ### Plaquette de prototypage de la manette (_joystick_)
