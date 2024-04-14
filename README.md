@@ -31,6 +31,11 @@ Un programmeur USB AVR Pololu est utilisé pour charger et programmer le micro-c
 Le point doit être branché à la masse pour la barre de résistance. Il faut aussi respecter l’orientation des DEL.
 
 ### Sortie d'écran LCD
+Le potentiomètre permet d’ajuster le contraste de l’écran de sortie LCD. Le rétro-éclairage de 3.3V correspond aux broches $15$ et $16$.
+
+Les données sont reliées aux broches $PC0$ à $PC7$. 
+
+Le contrôle est relié aux broches $PA5$ à $PA7$.
 
 ### Entrée _joystick_
 
