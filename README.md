@@ -2,8 +2,8 @@
 
 ## Table des matières
 
-
 ## Cours 1A - Montage de la plaquette de prototypage
+
 ### Plaquette de prototypage de la manette (_joystick_)
 
 ### Alimentation
@@ -12,13 +12,15 @@ Une batterie de $9V$ ou $7.4V$ si elle est en Lithium sont utilisés pour alimen
 
 Des régulateurs de charge sont placés dans le circuit pour contrôler les tensions entrantes et sortantes. *
 
-
-
 ### Microcontrôleur _ATmega324A_
+
 #### Caractéristiques
+
 Demi-cercle indique le haut de la puce. Il dispose de 40 broches ou pin situées de part et d’autres du microcontrôleur. Le microcontrôleur est symétrique.
 Le microcontrôleur est muni d’un oscillateur interne qui fonctionne à une fréquence de 8 MHz. Par conséquent, il effectue 8 millions d’opérations par seconde.
+
 #### Connexion minimum
+
 Les broches de *l’alimentation* et du *reset* sont essentielles.
 
 Le circuit est muni d’une résistance de tirage, ou *[pull-up* *resistance*](https://fr.wikipedia.org/wiki/R%C3%A9sistance_de_rappel) en anglais.
@@ -28,9 +30,11 @@ Le circuit est muni d’une résistance de tirage, ou *[pull-up* *resistance*](h
 Un programmeur USB AVR Pololu est utilisé pour charger et programmer le micro-contrôleur par le moyen du connecteur ISP.
 
 ### Sorties DEL
+
 Le point doit être branché à la masse pour la barre de résistance. Il faut aussi respecter l’orientation des DEL.
 
 ### Sortie d'écran LCD
+
 Le potentiomètre permet d’ajuster le contraste de l’écran de sortie LCD. Le rétro-éclairage de 3.3V correspond aux broches $15$ et $16$.
 
 Les données sont reliées aux broches $PC0$ à $PC7$. 
