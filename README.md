@@ -44,12 +44,12 @@ Le contrôle est relié aux broches $PA5$ à $PA7$.
 ### Entrée _joystick_
 
 ## Laboratoire 1A - Montage de la plaquette de prototypage
+
 ### Synthèse du laboratoire
 
 ## Cours 1B - Introduction à la programmation de microcontrôleur
 
 ### Sections du microcontrôleur
-
 
 ### Types de variables 
 
@@ -120,4 +120,5 @@ Le contrôle est relié aux broches $PA5$ à $PA7$.
 ### Résultat de la soudure
 
 ## Licence
+
 Ce projet est sous licence conformément à la [licence MIT](LICENSE).
