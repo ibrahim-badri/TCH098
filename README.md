@@ -43,6 +43,8 @@ Le contrôle est relié aux broches $PA5$ à $PA7$.
 
 ### Entrée _joystick_
 
+L’entrée Joystick sera sujet à la programmation au prochain cours. Néanmoins, celui-ci permettait de vérifier le branchement des lumières DEL lors de la phase finale de vérification. Dans notre cas, les deux plaquettes de prototypage étaient fonctionnelles et la note de $100%$ nous a été attribuée.
+
 ## Laboratoire 1A - Montage de la plaquette de prototypage
 
 ### Synthèse du laboratoire
