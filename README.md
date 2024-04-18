@@ -23,7 +23,7 @@ Le microcontrôleur est muni d’un oscillateur interne qui fonctionne à une fr
 
 Les broches de *l’alimentation* et du *reset* sont essentielles.
 
-Le circuit est muni d’une résistance de tirage, ou *[pull-up* *resistance*](https://fr.wikipedia.org/wiki/R%C3%A9sistance_de_rappel) en anglais.
+Le circuit est muni d’une résistance de tirage, ou [*pull-up resistance*](https://fr.wikipedia.org/wiki/R%C3%A9sistance_de_rappel) en anglais.
 
 ### Programmation
 
