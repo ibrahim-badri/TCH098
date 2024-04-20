@@ -117,6 +117,8 @@ L’entrée Joystick sera sujet à la programmation au prochain cours. Néanmoin
 
 ### Ordre de soudure
 
+Plus petit au plus grand 
+
 ### Résultat de la soudure
 
 ## Licence
