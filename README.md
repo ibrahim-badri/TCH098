@@ -115,6 +115,8 @@ L’entrée Joystick sera sujet à la programmation au prochain cours. Néanmoin
 
 ### Placement des composants
 
+Voir schéma
+
 ### Ordre de soudure
 
 Plus petit au plus grand 
