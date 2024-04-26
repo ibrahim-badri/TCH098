@@ -55,6 +55,17 @@ L’entrée Joystick sera sujet à la programmation au prochain cours. Néanmoin
 
 ### Format et opérateurs binaires
 
+```C
+uint8_t A = 0b01110010;
+uint8_t B = 0b10110111;
+uint8_t X = A | B; // X = 0b11110111
+uint8_t X = A & B; // X = 0b00110010
+uint8_t X = A ^ B; // X = 0b11000101
+uint8_t ~A = 0b10001101;
+uint8_t A = A << 3; // A = 0b10010000
+uint8_t A = A >> 4; // A = 0b00000011
+```
+
 ### Registres de configuration et contrôle
 
 ### Bibliothèques de fonctions et définitions utiles
