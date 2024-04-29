@@ -120,6 +120,8 @@ uint8_t A = A >> 4; // A = 0b00000011
 
 ### Brasage électronique
 
+Le but est d’unir deux pièces de métal à l’aide d’une résine (flux) empêchant l’oxydation.
+
 ### Entretien de la pointe
 
 ### Transfert thermique
