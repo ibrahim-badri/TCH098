@@ -116,6 +116,8 @@ uint8_t A = A >> 4; // A = 0b00000011
 
 ### Communication sans-fil ESP8266
 
+Le module de communication sans fil permet aux deux plaquettes de communiquer sans qu’elles soient connectées entre elles.
+
 ### Dessin de circuit imprimé
 
 ### Brasage électronique
