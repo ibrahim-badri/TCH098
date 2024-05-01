@@ -1,4 +1,4 @@
-# TCH098 Projet multidisciplinaire
+## TCH098 Projet multidisciplinaire
 
 ## Cours 1A - Montage de la plaquette de prototypage
 
@@ -113,6 +113,8 @@ uint8_t A = A >> 4; // A = 0b00000011
 ## Cours 3A et 3B - Conception d’un circuit et brasage à l’étain
 
 ### Pont en H DRV8801
+
+Le pont en H est un composant essentiel du circuit. Il permet entre autres d’inverser le sens de rotation du moteur dépendamment du circuit interne qui est activé.
 
 ### Communication sans-fil ESP8266
 
