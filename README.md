@@ -84,6 +84,22 @@ uint8_t A = A >> 4; // A = 0b00000011
 
 ### Configuration de la conversion analogique à numérique
 
+On configure les broches PA0 et PA1 en entrée au moyen de `DDRA = clear_bits (DDRA, 0b00000011)`;
+
+On sélectionne la référence de tension au moyen des fonctions `ADMUX = clear_bit (ADMUX, REFS1);` et `ADMUX = set_bit(ADMUX, REFS0);` . Ceci découle des spécifications du projet. 
+
+Choisir le format du résultat de conversion spécifié ay moyen de fonction `ADMUX = set_bit (ADMUX, ADLAR);`
+
+Choisir le facteur de division de l’horloge de 128 en activant les bits `ADPS0`, `ADPS1` et `ADPS2` du registre `ADCSRA` au moyen de la fonction `ADCSRA = set_bits(ADCSRA, 0b00000111);` ou activer chaque bit individuellement.
+
+Activer la conversion analogique à numérique en activant le bit `ADEN` du registre `ADCSRA` au moyen de la fonction `ADCSRA = set_bit (ADCSRA, ADEN);`
+
+Choisir l’entrée à convertir, prendre sa valeur binaire et et activer les bits correspondant. Pour la broche PA6, sa valeur binaire est égale à $00110$. Dans le registre `ADMUX`, il faut donc activer les bits `MUX0` à `MUX4` correspondant à la valeur binaire.
+
+Attendre la fin de la conversion en effectuant un `while(read_bit(ADCSRA,ADSC) == 1)` .
+
+Faire une lecture du résultat de la conversion et donc `return ADCH`;
+
 ### Solution d'ajustement d'intensité
 
 ### Modulation de largeur d’impulsion
