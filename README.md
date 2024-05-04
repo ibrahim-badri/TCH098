@@ -82,6 +82,8 @@ uint8_t A = A >> 4; // A = 0b00000011
 
 ### Fonction de conversion du microcontrôleur
 
+Dans le cas du ATmega324A, le port A détient 8 broches responsables de la conversion. Dans le cadre du projet, les ports PA0 et PA1 se chargent de convertir les valeurs analogiques du courant entre $0$ à $3.3 V$ en valeurs numériques dans les directions $x$ et $y$. La tension est régulée par un potentiomètre.
+
 ### Configuration de la conversion analogique à numérique
 
 On configure les broches PA0 et PA1 en entrée au moyen de `DDRA = clear_bits (DDRA, 0b00000011)`;
