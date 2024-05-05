@@ -122,6 +122,8 @@ Faire une lecture du résultat de la conversion et donc `return ADCH`;
 
 ### Modules de programmation
 
+Les bibliothèques uart.c, uart.h, fifo.c et fifo.h sont des librairies essentielles.
+
 ### Interruptions
 
 ### En résumé…
