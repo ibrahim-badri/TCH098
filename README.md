@@ -76,6 +76,168 @@ uint8_t A = A >> 4; // A = 0b00000011
 
 ### Exemples de codes
 
+```C
+/*
++===============================================+
+|   LIBRAIRES ET COMMANDES AUX PRÉPROCESSEURS   |
++===============================================+
+Au début de chaque programme, il est important d'importer et d'inclure
+les libraires nécessaires à l'utilisation des différentes méthodes
+ou fonctions. Se référer à la documentation pour connaître
+les fonctionnalités de chacune.
+*/
+
+#include <avr/io.h>
+#include <util/delay.h>
+#include "lcd.h"
+#include "utils.h"
+#include <stdio.h>
+
+/*
++====================+
+|   PROGRAMME MAIN   |
++====================+
+Le code doit être rédigé dans cette section pour pouvoir être compilé.
+*/
+
+int main(void)
+{
+
+/*
++==============================+
+|   DÉFINITION DES VARIABLES   |
++==============================+
+ Le bouton de Joystick possèdes 2 états : appuyé et non-appuyé.
+ Lorsqu'il est appuyé, on connecte la broche dy microcontrôleur
+à la masse, générant un 0. Ici, on le définit comme étant 1.
+
+On déclare aussi une chaîne de caractère qui composera le message
+affiché par le LCD.
+
+*/
+	uint8_t b = 1;	
+	char str[40];	
+		
+
+/*
++===========================+
+|   CONFIGURATION DES DEL   |
++===========================+
+Les témoins lumineux de la DEL sont connectées aux broches PB0 à PB4.
+Néanmoins, puisque les DEL n'envoient aucune information aux microcontrôleurs,
+les broches PB0 à PB4 doivent être définies comme des sorties. Pour se faire,
+on utilise la fonction DDRx = set_bits pour mettre les bits correspondants à 
+1.
+*/
+
+	DDRB=set_bits(DDRB,0b00011111);
+
+/*
++===============================+
+|   CONFIGURATION DU JOYSTICK   |
++===============================+
+Le joystick est connecté au microcontrôleur à travers la broche PA2. 
+Contraitement aux DEL, celui-ci envoi de l'information pertinente au 
+microcontrôleur et par conséquent, doit être défini comme une entrée par le biais
+de la fonction DDRx = clear_bit. Ici, il s'agit d'un bit individuel, il est donc
+primordial d'enlever le 's'. La fonction PORTx = set_bit, quant à elle, force 
+un état sur une broche, ou en d'autres termes, permet d'activer la pull-up 
+resistance de la broche pour forcer un état (0 ou 1).
+*/
+	
+	DDRA = clear_bit(DDRA,PA2);
+	PORTA = set_bit(PORTA,PA2);
+
+/*
++===============================+
+|   INITIALISATION DE L'ÉCRAN   |
++===============================+
+L'affichage LCD est un composant pertinent permetttant d'afficher et de relayer des informatiques critiques
+telles que la position du joystick, la puissance d'un moteur, des états ou bien même, des poèmes romantiques
+si vous êtes un SIMP. Tout d'abord il est important d'initaliser le LCD et d'en effacer le contenu.
+*/
+
+	lcd_init();
+	lcd_clear_display();
+
+/*
++============================+
+|   BOUCLE INFINI WHILE(1)   |
++============================+
+Cette boucle permet une éxécution continu du programme dans le microcontrôleur et ce, jusqu'à celui-ci soit mis
+hors tension.
+*/
+
+    while (1) 
+    {
+
+/*
++==========================+
+|   LECTURE D'UNE BROCHE   |
++==========================+
+Comme il a été mentionné précédemment, le joystick deux états non simultanées.
+Ces états peuvent être traduites par une valeur numérique de 0 ou 1. Or, dépendemment
+de si le bouton est appuyé ou non, il est possible de récupérer cette valeur à travers la broche
+à laquelle il est connecté. Dans ce cas, puisque le joystick est connecté à la broche PA2,
+on récupère l'état du bouton par le biais de la fonction read_bit(PINx,XXX). 
+*/
+
+		b = read_bit(PINA,PA2);
+
+/*
++================================+
+|   MISE HORS TENSION DES DELS   |
++================================+
+Pour éteindre les DEL, il suffit de forcer l'état 0 sur les broches 
+connectés aux microcontrôleurs. La fonction clear_bits permet de forcer des 0
+là ou les valeurs sont à 1.
+*/
+		
+		PORTB = clear_bits(PORTB,0b00011111);
+
+/*
++==============================+
+|   STRUCTURE CONDITIONNELLE   |
++==============================+
+Cette boucle permet d'effectuer une séquence d'action en conséquence de l'état du bouton.
+Si le bouton est enfoncé (0), la DEL connectée à la broche BP4 s'allumera.
+Si le bouton est désenfoncé (1), la DEL connectée à la broche BP0 s'allumera.
+*/
+
+		if (b == 0){
+			PORTB = set_bit(PORTB,PB4);
+		}
+		else 
+			PORTB = set_bit(PORTB,PB0);
+		
+/*
++========================+
+|   CHAÎNE DE CARATÈRE   |
++========================+
+L'affichage de caractères ou de chaînes de caractères se fait à travers l'affichage LCD.
+Pour afficher un message, il faut d'abord définir la chaîne de caractère, son 
+contenu et le type de valeur devant être affiché avec la méthode sprintf(str,contenu et type de valeur, valeur).
+Par la suite, cette chaîne de caractère est envoyé vers l'écran LCD avec la fonction lcd_write_string(str),
+*/
+		sprintf(str,"b vaut %d",b);
+		
+		lcd_set_cursor_position(0,0);
+		lcd_write_string(str);
+
+/*
++=======================+
+|   DÉLAI DE SÉCURITÉ   |
++=======================+
+Un délai de sécurité est parfois nécessaire si l'information transmise nécessite
+d'être rafraîchie selon un certain intervale. Pour ajouter un délai,
+on utilise la fonction _delay_ms(temps).
+*/
+		_delay_ms(10);
+		
+    }
+}
+```
+
 ## Cours 2A - Lecture de potentiomètre par conversion analogique à numérique (CAN) et contrôle de moteur par modulation de largeur d’impulsion (MLI)
 
 ### Fonctions avancées du microcontrôleur
