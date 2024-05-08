@@ -276,6 +276,8 @@ Faire une lecture du résultat de la conversion et donc `return ADCH`;
 
 ### Broches de communication
 
+Le microcontrôleur dispose de plusieurs broches de communication pouvant agir à titre de récepteur (RX) ou transmetteur (TX). Ses broches font partie du port D.
+
 ### Transmission série asynchrone
 
 ### Norme RS232
