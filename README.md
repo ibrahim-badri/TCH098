@@ -51,6 +51,12 @@ L’entrée Joystick sera sujet à la programmation au prochain cours. Néanmoin
 
 ### Sections du microcontrôleur
 
+La **partie rouge** correspond aux entrées et sorties.
+
+La **partie verte** correspond à microprocesseur/CPU.
+
+La **partie bleue** correspond à la mémoire.
+
 ### Types de variables 
 
 ### Format et opérateurs binaires
