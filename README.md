@@ -74,6 +74,12 @@ uint8_t A = A >> 4; // A = 0b00000011
 
 ### Registres de configuration et contrôle
 
+`DDRx` : direction du port avec $0$ en entrée et $1$ en sortie.
+
+`PORTx` : forcer un $1$ ou un $0$ sur une broche.
+
+`PINx` : valeurs d’entrée et connaître l’état des entrées.
+
 ### Bibliothèques de fonctions et définitions utiles
 
 ## Laboratoire 1B - Introduction à la programmation de microcontrôleur
