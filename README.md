@@ -1,4 +1,4 @@
-## TCH098 Projet multi disciplinaire
+## TCH098 Projet multidisciplinaire
 
 <!-- -->
 
