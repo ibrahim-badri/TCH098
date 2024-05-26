@@ -1,7 +1,5 @@
 ## TCH098 Projet multidisciplinaire
 
-<!-- blank -->
-
 ## Cours 1A - Montage de la plaquette de prototypage
 
 ### Plaquette de prototypage de la manette (_joystick_)
