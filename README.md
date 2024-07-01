@@ -324,10 +324,7 @@ Le but d’un logiciel EDA est de faire une conception en deux temps : schémati
 
 Le logiciel suivant est utilisé pour la conception des circuits imprimés :
 
-<aside>
-<img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/16e3a37d-a90e-4631-9e57-be65ad75e5c4/altium-designer.png" alt="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/16e3a37d-a90e-4631-9e57-be65ad75e5c4/altium-designer.png" width="40px" /> ***Altium Designer***
-
-</aside>
+<!-- Placeholder for Altium Designer Software -->
 
 Lors de la conception d’un circuit, une trace est un chemin de conduction sur le circuit imprimé.
 
