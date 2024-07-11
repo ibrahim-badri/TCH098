@@ -1,8 +1,6 @@
 ## TCH098 Projet multidisciplinaire
 
 <!-- Placeholder for table of contents  -->
-<!-- TODO  -->
-
 
 ## Cours 1A - Montage de la plaquette de prototypage
 
