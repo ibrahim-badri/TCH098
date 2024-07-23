@@ -341,7 +341,7 @@ Le but est d’unir deux pièces de métal à l’aide d’une résine (flux) em
 
 ### Placement des composants
 
-<!-- Add shcema here -->
+<!-- Add schema here -->
 
 ### Ordre de soudure
 
