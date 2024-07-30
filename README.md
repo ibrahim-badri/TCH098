@@ -2,7 +2,6 @@
 
 <!-- TODO: add project description -->
 <!-- TODO: add table of content -->
-<!-- TODO: -->
 
 ## Cours 1A - Montage de la plaquette de prototypage
 
