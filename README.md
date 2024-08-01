@@ -3,7 +3,6 @@
 <!-- TODO: add project description -->
 <!-- TODO: add table of content -->
 
-
 ## Cours 1A - Montage de la plaquette de prototypage
 
 ### Plaquette de prototypage de la manette (_joystick_)
@@ -309,6 +308,8 @@ Les bibliothèques uart.c, uart.h, fifo.c et fifo.h sont des librairies essentie
 ### Interruptions
 
 ### En résumé…
+
+<!-- TODO: add table with resume of libraries -->
 
 ## Laboratoire 2B - Protocole de communication série asynchrone RS232
 
