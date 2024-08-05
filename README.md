@@ -341,6 +341,8 @@ Le but est d’unir deux pièces de métal à l’aide d’une résine (flux) em
 
 ### Entretien de la pointe
 
+<!-- TODO: add figure -->
+
 ### Transfert thermique
 
 <!-- Add schema here -->
