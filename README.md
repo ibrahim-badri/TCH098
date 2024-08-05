@@ -343,6 +343,8 @@ Le but est d’unir deux pièces de métal à l’aide d’une résine (flux) em
 
 ### Transfert thermique
 
+<!-- Add schema here -->
+
 ### Placement des composants
 
 <!-- Add schema here -->
