@@ -7,8 +7,6 @@
 
 ### Plaquette de prototypage de la manette (_joystick_)
 
-<!-- TODO: add joystick circuit -->
-
 ### Alimentation
 
 Une batterie de $9V$ ou $7.4V$ si elle est en Lithium sont utilisés pour alimenter le circuit.
